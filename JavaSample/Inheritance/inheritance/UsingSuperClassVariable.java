@@ -2,7 +2,7 @@ package inheritance;
 
 	//スーパークラスの変数を使ってサブクラスのオブジェクトを扱う
 
-class SuperClass
+class SuperClassInheritance
 {
 	void show()
 	{
@@ -10,7 +10,7 @@ class SuperClass
 	}
 }
 
-class SubClass extends SuperClass
+class SubClassInheritance extends SuperClassInheritance
 {
 	void show()
 	{
@@ -23,8 +23,8 @@ public class UsingSuperClassVariable
 
 	public static void main(String[] args)
 	{
-		SuperClass var;
-		var = new SubClass();	//スーパークラスの変数でサブクラスのオブジェクトを扱う
+		SuperClassInheritance var;
+		var = new SubClassInheritance();	//スーパークラスの変数でサブクラスのオブジェクトを扱う
 
 		var.show();	//サブクラスのshowメソッドが呼び出される
 
