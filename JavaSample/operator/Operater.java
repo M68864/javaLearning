@@ -36,7 +36,7 @@ public class Operater
 		 */
 
 
-		//~ :補数（単項）ビット反転(bitNOT)は各ビットを反転した結果が得られる
+		// ~ :補数（単項）ビット反転(bitNOT)は各ビットを反転した結果が得られる
 		String num1 = Integer.toBinaryString(24); //24 = 1100(binary)
 		String num2 = Integer.toBinaryString(~24);
 		byte num3 = ~24;
