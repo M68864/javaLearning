@@ -1,4 +1,4 @@
-package javaBasics;
+package javaChapter0;
 
 //標準入出力(standardIO)を行うときに必要なメソッド
 import java.io.BufferedReader;

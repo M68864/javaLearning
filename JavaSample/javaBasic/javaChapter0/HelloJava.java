@@ -1,4 +1,4 @@
-package javaBasics;
+package javaChapter0;
 
 public class HelloJava
 {
