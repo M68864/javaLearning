@@ -1,0 +1,5 @@
+【Win環境でjavaを実行させる】
+1:コマンドプロンプトを起動；ファイル検索(win + R)でcmdと入力する
+2:javaファイルが存在するディレクトリに移動する；「cd 目標ディレクトリ」で移動できる
+3:javaファイルをコンパイルする；「javac filename.java」でコンパイル、classファイル作成
+4:classファイルを実行；「java filename」で実行
