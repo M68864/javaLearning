@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="javaFileHandle"/>
-	<classpathentry kind="src" path="ioStdOrFile"/>
+	<classpathentry kind="src" path="stdIO_FileIO"/>
 	<classpathentry kind="src" path="ifSwitch"/>
 	<classpathentry kind="src" path="whileFor"/>
 	<classpathentry kind="src" path="javaObject-oriented"/>

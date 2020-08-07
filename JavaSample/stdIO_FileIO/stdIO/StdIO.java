@@ -1,12 +1,19 @@
-package javaChapter0;
+package stdIO;
 
 //標準入出力(standardIO)を行うときに必要なメソッド
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class StandardIO
-{
+/**
+ *
+ * @author M68864
+ * @see java.io.InputStreamReader
+ * @see java.io.BufferedReader
+ * @see stdIO.SystemInOutClass
+ * @since 2020/08/08
+ */
+public class StdIO {
 
 	public static void main(String[] args) throws IOException	//標準入出力において throws IOException の文言が必要
 	{
@@ -29,6 +36,8 @@ public class StandardIO
 		int num = Integer.parseInt(str2);	//標準入力は文字列として入力されるので扱うデータに沿った型変換が必要
 
 		System.out.println("int型整数「" + num + "」" + "として出力されたyo");
+
+		System.out.println(1 + 2 + ":" + 1 + 2);
 
 	}
 
