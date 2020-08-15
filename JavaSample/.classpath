@@ -12,5 +12,6 @@
 	<classpathentry kind="src" path="javaMathClass"/>
 	<classpathentry kind="src" path="exceptionHandling"/>
 	<classpathentry kind="src" path="unitTest"/>
+	<classpathentry kind="src" path="formula_operator"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
