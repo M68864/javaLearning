@@ -13,5 +13,6 @@
 	<classpathentry kind="src" path="exceptionHandling"/>
 	<classpathentry kind="src" path="unitTest"/>
 	<classpathentry kind="src" path="formula_operator"/>
+	<classpathentry kind="src" path="javaDocumentation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

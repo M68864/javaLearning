@@ -15,8 +15,7 @@ import java.io.InputStreamReader;
  */
 public class StdIO {
 
-	public static void main(String[] args) throws IOException	//標準入出力において throws IOException の文言が必要
-	{
+	public static void main(String[] args) throws IOException { //標準入出力においは throws IOException でのハンドリングが必要
 
 		System.out.println("何か入力してみよ？？");
 

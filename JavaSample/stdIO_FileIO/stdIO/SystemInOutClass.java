@@ -22,13 +22,19 @@ public class SystemInOutClass {
 	 * @see stdIO.StdIO
 	 */
 	public static void systemIn() {
+
 		// 初歩的な使用例
 		System.out.print("System.in.read()のinput:");
+
 		int input;
+
 		try {
+
 			input = System.in.read(); // キー入力を input に代入
 			System.out.println("input:" + input); // inputを出力
+
 		} catch (IOException e) {
+
 			System.out.println("エラーが起きました");
 		}
 
@@ -45,6 +51,7 @@ public class SystemInOutClass {
 	 * @see java.io.PrintStream
 	 */
 	public static void systemOut() {
+
 		// 初歩的な使用例は以下の通り
 		System.out.println("System.out.println:" + 1 + 2);
 		// 1 + 2 は引数内で後置されると演算されないので注意
@@ -78,6 +85,7 @@ public class SystemInOutClass {
 	 * @see java.lang.System
 	 */
 	public static void systemClass() {
+
 		System.out.println("getProperties():" + System.getProperties());
 		System.out.println("getenv():" + System.getenv());
 	}
