@@ -1,53 +1,35 @@
 package array;
 
-	//オブジェクトを配列に代入して扱う方法を学ぶ
+/**
 
-class ObjectArray
-{
-	private int numA;
-	private double numB;
 
-	public ObjectArray()
-	{
-		numA = 0;
-		numB = 0.0;
-		System.out.println("ObjectArray generated");
-	}
+/**
+ * オブジェクト型の配列を扱う際に配列インスタンスは参照型であることの留意点
+ *
+ * @author M68864
+ * @since 2020/08/30
+ */
+public class ObjectHandleWithArray {
 
-	public void setObjectArray(int n, double m)
-	{
-		numA = n;
-		numB = m;
-		System.out.println("setObjectArray method numA:"+numA+", numB"+numB);
-	}
+	public static void main(String[] args) {
+		// 配列インスタンスの生成
+		// あくまで配列インスタンスの参照型が生成されたのであって、Itemインスタンスの生成ではない
+		Items[] aryItems = new Items[1];
 
-	public void show()
-	{
-		System.out.println("ObjectArray show method");
+		//int price = aryItems[0].price;
+		// ↑Itemsインスタンスへの参照ではないのでヌルポになる
+
+		// 従ってオブジェクト型配列の中身のインスタンスは次のようにインスタンスを代入する必要がある
+		aryItems[0] = new Items(200);
+		System.out.println("price:" + aryItems[0].price);
 	}
 }
 
-public class ObjectHandleWithArray
-{
+class Items {
 
-	public static void main(String[] args)
-	{
-		ObjectArray[] ObjectArrays = new ObjectArray[3];	//配列の生成
+	int price;
 
-		for(int i=0; i<ObjectArrays.length; i++)
-		{
-			ObjectArrays[i] = new ObjectArray();	//オブジェクトの生成
-		}
-
-		ObjectArrays[0].setObjectArray(1, 3.1);
-		ObjectArrays[1].setObjectArray(2, 3.14);
-		ObjectArrays[2].setObjectArray(3, 3.141);
-
-		for(int i=0; i<ObjectArrays.length; i++)
-		{
-			ObjectArrays[i].show();
-		}
-
+	public Items(int price) {
+		this.price = price;
 	}
-
 }
