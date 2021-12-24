@@ -1,8 +1,8 @@
 package enumClass;
 
-public class EnumClass extends StringClass {
+import java.math.BigDecimal;
 
-	private static final String str2 = "ストリング";
+public class EnumClass {
 
 	enum CarBrand {TOYOTA,
 					NISSAN,
@@ -13,35 +13,32 @@ public class EnumClass extends StringClass {
 
 	public static void main(String[] args) {
 
-		String str1 = "avengers";
+		Double dob1 = new Double(7);
+		Double dob2 = new Double(3);
+		Double dob3 = (Double)dob1/dob2;
+		//char[] char1 = dob3.toString().toCharArray();
+		System.out.println(dob3);
 
-		StringClass strClass = new StringClass();
+		BigDecimal num1 = new BigDecimal(7);
+		BigDecimal num2 = new BigDecimal(3);
+		BigDecimal num3 = num1.divide(num2).scaleByPowerOfTen(10);
+		System.out.println(num3);
 
-		if (STR == strClass.getStr()) {
-			System.out.println("比較結果1：" + true);
-		}
+//		char[] char2 = num3.toString().toCharArray();
+//		for (int ite = 0; ite < char1.length; ite++) {
+//
+//			char str1 = char1[ite];
+//			char str2 = char2[ite];
 
-		if (str1.equals(strClass.getStr())) {
-			System.out.println("比較結果2：" + true);
-		}
-		System.out.println(str1);
-		System.out.println(str1.hashCode());
-		System.out.println(strClass.getStr());
-		System.out.println(strClass.getStr().hashCode());
+			//System.out.print(str1);
 
+//				if (str1 != str2) {
+//					System.out.println(ite);
+//					System.out.println(str1);
+//				}
+
+//			}
 	}
 }
 
-class StringClass {
-	static final String STR = "ストリング";
-
-	public String getStr() {
-
-		StringBuilder strBld = new StringBuilder("aven");
-		strBld.append("gers");
-
-		return strBld.toString();
-	}
-
-}
 
