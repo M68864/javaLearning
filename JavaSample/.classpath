@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="formula_operator"/>
 	<classpathentry kind="src" path="javaDocumentation"/>
 	<classpathentry kind="src" path="sortAlgorithm"/>
+	<classpathentry kind="src" path="enum"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
