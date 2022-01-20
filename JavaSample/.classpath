@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="javaDocumentation"/>
 	<classpathentry kind="src" path="sortAlgorithm"/>
 	<classpathentry kind="src" path="enum"/>
+	<classpathentry kind="src" path="systemDateTime"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
