@@ -42,4 +42,15 @@ public class Class_MethodJavaDoc {
 		// 何か処理
 	}
 
+
+	 @category
+	 @serialData
+	 {@code}
+	 {@docroot}
+	 {@inheritDoc}
+	 {@linkplain}
+	 {@link}
+	 {@literal}
+	 {@value}
+
 }
